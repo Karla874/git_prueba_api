@@ -61,3 +61,17 @@ curl -X POST http://localhost:8080/users \
 ```
 > [!CAUTION]
 Al añadir un usuario con el mismo correo, la terminal debería enseñar un error.
+
+## Extra: Demostración en Postman
+Capturas realizadas para corroborar la funcionalidad de la api.
+Al hacer clic se pueden ver en tamaño completo.
+
+### Añadir usuarios con POST
+<img src="images/Postman_post_1.png" height="200"> <img src="images/Postman_post_3.png" height="200">
+
+### Validación de email único
+<img src="images/Postman_post_2.png" height="200">
+
+### Consultar usuarios con GET
+<img src="images/Postman_get.png" height="200">
+
