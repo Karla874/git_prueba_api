@@ -7,8 +7,9 @@ Servicio básico de API REST desarrollado con Spring Boot que permite registrar 
 
   - Java 17
   - Spring Boot 3.5.6
-  - Maven/Gradle (especifica cuál usaste)
+  - Maven
   - Spring Web
+
 ## Instalación y ejecución
 
 ### Prerrequisitos
@@ -41,7 +42,8 @@ mvn spring-boot:run
 ```console
 http://localhost:8080/
 ```
-<sub>* Verificar que se encuentre activo.</sub>
+> [!NOTE]
+Verificar que se encuentre activo en status.
 
 ### Ingresando usuarios:
 En una nueva terminal, añadir a...
@@ -57,4 +59,5 @@ curl -X POST http://localhost:8080/users \
   -H "Content-Type: application/json" \
   -d '{"id": 2, "name": "Ana López", "email": "ana.lopez@example.com"}'
 ```
-<sub>* NOTA: Al añadir un usuario con el mismo correo, la terminal debería enseñar un error.</sub>
+> [!CAUTION]
+Al añadir un usuario con el mismo correo, la terminal debería enseñar un error.
