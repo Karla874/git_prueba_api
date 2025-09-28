@@ -43,7 +43,7 @@ mvn spring-boot:run
 http://localhost:8080/
 ```
 > [!NOTE]
-Verificar que se encuentre activo en status.
+Verificar que se encuentre activa en status.
 
 ### Ingresando usuarios:
 En una nueva terminal, añadir a...
@@ -67,11 +67,11 @@ Capturas realizadas para corroborar la funcionalidad de la api.
 Al hacer clic se pueden ver en tamaño completo.
 
 ### Añadir usuarios con POST
-<img src="images/Postman_post_1.png" height="200"> <img src="images/Postman_post_3.png" height="200">
+<img src="images/Postman_post_1.png" height="150"> <img src="images/Postman_post_3.png" height="150">
 
 ### Validación de email único
-<img src="images/Postman_post_2.png" height="200">
+<img src="images/Postman_post_2.png" height="150">
 
 ### Consultar usuarios con GET
-<img src="images/Postman_get.png" height="200">
+<img src="images/Postman_get.png" height="150">
 
