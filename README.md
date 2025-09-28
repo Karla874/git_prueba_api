@@ -46,13 +46,13 @@ http://localhost:8080/
 ### Ingresando usuarios:
 En una nueva terminal, añadir a...
 
-```json
+```console
 curl -X POST http://localhost:8080/users \
   -H "Content-Type: application/json" \
   -d '{"id": 1, "name": "Juan Peréz", "email": "juan.perez@example.com"}'
 ```
 
-```json
+```console
 curl -X POST http://localhost:8080/users \
   -H "Content-Type: application/json" \
   -d '{"id": 2, "name": "Ana López", "email": "ana.lopez@example.com"}'
